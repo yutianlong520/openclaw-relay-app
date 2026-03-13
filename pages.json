@@ -1,0 +1,57 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "设备列表",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/chat/chat",
+      "style": {
+        "navigationBarTitleText": "聊天",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/settings/settings",
+      "style": {
+        "navigationBarTitleText": "设置",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "OpenClaw 中转助手",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F5F5F5"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/device.png",
+        "selectedIconPath": "static/tabbar/device-active.png",
+        "text": "设备"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "iconPath": "static/tabbar/chat.png",
+        "selectedIconPath": "static/tabbar/chat-active.png",
+        "text": "聊天"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "iconPath": "static/tabbar/settings.png",
+        "selectedIconPath": "static/tabbar/settings-active.png",
+        "text": "设置"
+      }
+    ]
+  }
+}
